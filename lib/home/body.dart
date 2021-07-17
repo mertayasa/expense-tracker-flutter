@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:test_app/home/section/header.dart';
+import 'package:test_app/home/section/main.dart';
 
 class HomeBody extends StatelessWidget{
   
@@ -13,6 +14,7 @@ class HomeBody extends StatelessWidget{
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           HomeHeader(),
+          HomeMain(),
           // TitleWithMoreBtn(title: "Recomended", press: () {}),
           // RecomendsPlants(),
           // TitleWithMoreBtn(title: "Featured Plants", press: () {}),
